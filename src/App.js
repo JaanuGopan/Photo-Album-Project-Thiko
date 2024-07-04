@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import image1 from "./assets/images/IMG_4546.JPG";
+import image2 from "./assets/images/DSC_0543.JPG";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="main-container">
+      <h2 className="main-container-heading">Pongal Vizha</h2>
+      <div className="media-container">
+        <div className="image-container">
+          <img src={image1} className="image" alt="Pongal Vizha" />
+        </div>
+        <div className="video-container">
+          <iframe
+            className="video"
+            src="https://www.youtube.com/embed/6LD30ChPsSs"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        </div>
+        <div className="image-container">
+          <img src={image2} className="image" alt="Pongal Vizha" />
+        </div>
+      </div>
     </div>
   );
 }
