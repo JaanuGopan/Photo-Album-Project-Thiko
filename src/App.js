@@ -1,11 +1,14 @@
 import "./App.css";
-import image1 from "./assets/images/IMG_4546.JPG";
+import image1 from "./assets/images/1999-batch.jpeg";
 import image2 from "./assets/images/DSC_0543.JPG";
+import ImagesList from "./components/ImageList";
 
 function App() {
   return (
     <div className="main-container">
-      <h2 className="main-container-heading">Pongal Vizha</h2>
+      <div className="heading-container">
+        <h2 className="main-container-heading">Class Bunkers - 1999</h2>
+      </div>
       <div className="media-container">
         <div className="image-container">
           <img src={image1} className="image" alt="Pongal Vizha" />
