@@ -16,7 +16,7 @@ function App() {
         <div className="video-container">
           <iframe
             className="video"
-            src="https://www.youtube.com/embed/6LD30ChPsSs"
+            src="https://www.youtube.com/watch?v=Fhgpf2ikOWY"
             title="YouTube video player"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
